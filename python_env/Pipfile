@@ -13,6 +13,8 @@ scipy = "*"
 scikit-learn = "*"
 nbconvert = "*"
 pyjanitor = "*"
+xgboost = "*"
+flask = "*"
 
 [dev-packages]
 
