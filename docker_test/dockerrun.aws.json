@@ -1,0 +1,9 @@
+{
+  "AWSEBDockerrunVersion": "1",
+  "Image":{
+    "Name": "lloydhamilton/app-iris"
+  },
+  "Ports":[
+    {"ContainerPort": 8080}
+  ]
+}
