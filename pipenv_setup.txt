@@ -2,8 +2,10 @@
 mkdir test_project
 cd test_project
 pipenv install request
+
 # Removes virtual env
 pipenv --rm
+
 # Show folder where the env file is
 pipenv --venv
 pipenv --python 3.7 (after changing lock file)
@@ -11,4 +13,9 @@ pipenv check
 pipenv graph
 pipenv install --ignore-pipfile
 
+# Install env using a requirements.txt file
+pipenv install -r ../snippets/requirements.txt
+
+# Display dependencies to be added to requirements.txt file
+pipenv lock -r
 # create a .env file to be able to load environment variables in python.

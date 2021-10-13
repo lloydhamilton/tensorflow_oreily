@@ -15,6 +15,7 @@ nbconvert = "*"
 pyjanitor = "*"
 xgboost = "*"
 flask = "*"
+streamlit = "*"
 
 [dev-packages]
 
