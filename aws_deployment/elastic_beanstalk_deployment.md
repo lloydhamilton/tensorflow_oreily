@@ -27,6 +27,8 @@ ENTRYPOINT ["python", "app.py"]
 * Create a requirement.txt file with correct dependencies
 	* use `pipenv lock -r` to view dependency versions
 
+* To build a local docker container use the command
+	* `docker build -t <NAME> .`
 
 # Elastic Beanstalk
 
