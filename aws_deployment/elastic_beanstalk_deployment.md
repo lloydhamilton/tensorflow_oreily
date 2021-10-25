@@ -1,6 +1,16 @@
 # Pipenv
 
+To install new env with `pipfile.lock` use command:
 
+`pipenv install --ignore-pipfile`
+
+To see packages version:
+
+`pipenv lock`
+
+register to jupyter notebook
+
+`python -m ipykernel install --user --name=myenv`
 
 # Flask
 
@@ -40,7 +50,7 @@ Main tutorial to deploy application on EB was found [here](https://sommershurbaj
 
 * Create a user with the appropriate IAM access in AWS console. Copy and past the public and private access to keys when setting up in Elastic Beanstalk CLI. Elastic Beanstalk CLI can be installed [here](https://github.com/aws/aws-elastic-beanstalk-cli-setup). 
 
-* Ensure the correct port is exposed.
+* Ensure the correct port is exposed. Default for streamlit is 8501
 
 * Ensure you are in working folder before using `eb init`
 
