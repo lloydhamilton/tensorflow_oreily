@@ -6,11 +6,20 @@ To install new env with `pipfile.lock` use command:
 
 To see packages version:
 
-`pipenv lock`
+`pipenv lock -r`
 
-register to jupyter notebook
+To create requirements.txt file
+`pipenv lock -r > requirements.txt`
+
+Register to jupyter notebook
 
 `python -m ipykernel install --user --name=myenv`
+
+`pipenv install -r <location>`
+
+`jupyter kernelspec list`
+
+`jupyter kernelspec uninstall unwanted-kernel`
 
 # Flask
 
