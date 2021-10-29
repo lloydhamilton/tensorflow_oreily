@@ -17,6 +17,9 @@ xgboost = "*"
 flask = "*"
 streamlit = "*"
 pandas-profiling = "*"
+boto3 = "*"
+awscli = "*"
+sagemaker = "*"
 
 [dev-packages]
 
