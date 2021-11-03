@@ -20,7 +20,7 @@ st.markdown("""
  * Use the menu at left to select data and set plot parameters
  * Your plots will appear below
 """)
-st.sidebar.markdown('# this is a comment')
+st.sidebar.markdown('# this is a comment that has been edited locally')
 data = pd.DataFrame(iris.data, 
                     columns = np.append(iris.target_names, np.array(['class'])))
 

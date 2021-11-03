@@ -67,6 +67,8 @@ Main tutorial to deploy application on EB was found [here](https://sommershurbaj
 
 `eb create` to create environment.
 
+`eb terminate <ENVIRONMENT_NAME>` to terminate environment
+
 #### Termination of resources
 
 * Log into AWS Elastic Beanstalk Console to terminate the environment and delete all applications.

@@ -20,6 +20,7 @@ pandas-profiling = "*"
 boto3 = "*"
 awscli = "*"
 sagemaker = "*"
+pytest = "*"
 
 [dev-packages]
 
